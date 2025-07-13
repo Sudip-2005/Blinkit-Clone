@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: o;
+    border: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    }
+.nav-bar{
+    height:86px;
+    width: 100%;
+    background-color: red;
+    margin-top: 0;
+}
+.second-bar{
+    height: 235px;
+    width: 1280px;
+    background-color: green;
+}
+.image-buttons{
+    height: 227px;
+    width: 1008px;
+    background-color: blue;
+}
+.main-content{
+    height: 235px;
+    width: 1280px;
+    background-color: green;
+}
+.logo{
+    background-color: rgb(16, 15, 15);
+    height: 86px;
+    width: 178px;
+}
+.blinkit{
+    height: ;px
+}
