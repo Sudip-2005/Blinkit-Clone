@@ -19,7 +19,7 @@ body {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-color: red;
+    background-color: white;
     margin-top: 0;
     border-bottom:1px solid rgb(200, 190, 190);
 }
@@ -84,6 +84,9 @@ overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
 }
+.writing{
+    margin-left: 2rem;
+}
 
 .arrow {
   font-size: 10px; /* adjust if needed */
@@ -94,6 +97,8 @@ overflow: hidden;
     justify-content: center;
     background-color: #f8f8f8;
     border-radius: 16px;
+    margin-left: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
 }
 .srch-icon{
     width: 30px;
@@ -107,22 +112,59 @@ overflow: hidden;
     width: 20px;
     margin-top: 13px;
     margin-bottom: 13px;
-    margin-left: 33px;
+    margin-left: 57px;
     font-size: 1.2rem;
+    border: none;
 }
 .search-bar{
-    width: 381px;
-    height: 46px;
+    width: 650px;
+    height: 50px;
     font-size: 1rem;
     padding: 0px 12px;
     gap: 8px;
-    margin-left: 10px;
-    border: 1px solid rgb(232, 232, 232)
+    /* margin-left: 10px; */
+    /* border: 1px solid rgb(232, 232, 232) */
     /* display: flex;
     align-items: center;
     justify-content: center;
     box-shadow :none; */
 }
 .srch-in{
-    margin-left: 10px;
+    margin-left: 15px;
+    border: none;
+}
+.log-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    transition: font-size 0.5s;
+    margin-left: 7.5rem;
+    cursor: pointer;
+}
+.mycart{
+    background-color: rgb(204, 204, 204);
+    border-radius: 8px;
+    cursor: not-allowed;
+    height: 52px;
+    width: 112px;
+    margin-left: 7rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.5;
+}
+.text{
+    margin-left: 13px;
+    color: white;
+    font-weight: 600;
+    
+}
+.card-logo{
+    margin-left: 10;
+    font-size: 1.2rem;
+}
+.login-div{
+    padding-left: 10px;
 }
