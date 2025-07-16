@@ -230,12 +230,17 @@ overflow: hidden;
     padding: 16px 0px;
 }
 .div-egg-text{
+    /* margin-left: -10rem; */
     color: rgb(28, 28, 28);
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
 }
+.dairy-co{
+    margin-right: 30px;
+}
 .see-all{
+    margin-left:25rem;
     line-height: 32px;
     font-size: 20px;
     color: rgb(12, 131, 31);
